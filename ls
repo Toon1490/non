@@ -8283,12 +8283,6 @@ spawn(function()
 	if lplr == Player then
 		Cam.CameraSubject = Character:FindFirstChildOfClass("Humanoid")
 	end
-	if lplr == Player then
-		game:GetService("RunService").RenderStepped:Connect(function()
-			Player.Character = Character
-			Cam.CameraSubject = Character:FindFirstChildOfClass("Humanoid")
-		end)
-	end
 	Character.Parent = workspace
 
 	local TS = game:GetService("TweenService")
