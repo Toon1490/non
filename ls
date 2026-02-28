@@ -8417,7 +8417,7 @@ WEAPONGUI.Name = "V̴̜̈́i̸̫̫͐͛̐̕͘Ȁ̷̧̡͇͔̆̽̔͑n̸̪̱͍̰̱̅̀
 local Effects = IT("Folder", Character)
 Effects.Name = "Effects"
 local ANIMATOR = Humanoid.Animator
-local ANIMATE = Character.Animate
+--local ANIMATE = Character.Animate
 local UNANCHOR = true
 local FIRECOLOR = C3(0,0,0)
 
@@ -11760,7 +11760,7 @@ Character.Parent = workspace
 
 while true do
 	Swait()
-	ANIMATE.Parent = nil
+	--ANIMATE.Parent = nil
 	for _,v in next, Humanoid:GetPlayingAnimationTracks() do
 		v:Stop();
 	end
